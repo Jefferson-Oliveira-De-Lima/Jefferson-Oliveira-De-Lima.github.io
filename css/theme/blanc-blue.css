@@ -1,0 +1,12 @@
+main {
+    background: rgb(106, 106, 255);
+    color: #fafafa;
+}
+
+.logo a {
+    color: #fafafa;
+}
+
+.logo a svg path{
+    fill: #fafafa;
+}

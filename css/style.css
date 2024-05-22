@@ -1,0 +1,63 @@
+/* style */
+
+main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 30px;
+    justify-content: center;
+}
+
+.intro {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.line {
+    margin: 1.5rem;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espace entre les logos */
+}
+
+.logos i {
+    font-size: 2em;
+    padding: 10px;
+}
+
+/* Typographie */
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 550px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 750px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 990px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 20px;
+    }
+}
